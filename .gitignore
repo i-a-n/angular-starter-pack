@@ -31,3 +31,6 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# let's ignore bower stuff because we're all adults here
+bower_components

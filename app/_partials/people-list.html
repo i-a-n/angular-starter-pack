@@ -1,0 +1,10 @@
+<div class='container'>
+    <h3>World's Simplest Unit Test</h3>
+    <table class='table  table-condensed'>
+        <!-- not 'row in [controller name].dummyData' because we used $scope -->
+        <tr ng-repeat="row in dummyData"> 
+            <td>{{row.name}}</td>
+            <td>{{row.years}}</td>
+        </tr>
+    </table>
+</div>
