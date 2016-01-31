@@ -1,9 +1,14 @@
 ##Angular starter pack details
 I made this for myself to reference for future front-end projects. The pack includes:
+
 *angular*—EXTREME JAVASCRIPTING
+
 *bower*—This manages the packages, including Angular itself. It puts everything in /bower_components. That's why I'm git-ignoring /bower_components and just running `bower init'.
+
 *bootstrap*—Basic bootstrap. Will live in /bower_components. Gets linked that way from the app's HTML. Just using the CSS really.
+
 *grunt*—Using this to build less files into CSS.
+
 *firebase*—Using bower to install AngularFire, firebase's angular helper library. This starter pack doesn't have any actual firebase integration to speak of, since I don't want to hardwire a sample firebase app here and it wouldn't be any more help than just reading the documentation you lazy sloth.
 
 ###Building
